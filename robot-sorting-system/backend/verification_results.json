@@ -1,0 +1,76 @@
+{
+  "timestamp": "2026-03-12T14:33:46.380207",
+  "tests": [
+    {
+      "name": "Basic Engine Test",
+      "duration_seconds": 5,
+      "status": "PASS",
+      "metrics": {
+        "total_items_processed": 190,
+        "successful_sorts": 0,
+        "failed_sorts": 0,
+        "accuracy_rate": "0.00%",
+        "simulation_time": "2.10s",
+        "fps": "19.3",
+        "total_frames": 210,
+        "items_in_environment": 190
+      }
+    },
+    {
+      "name": "Multi-Robot Test",
+      "robot_count": 4,
+      "status": "PASS",
+      "metrics": {
+        "total_items_processed": 171,
+        "successful_sorts": 0,
+        "failed_sorts": 0,
+        "accuracy_rate": "0.00%",
+        "simulation_time": "1.80s",
+        "fps": "28.1",
+        "total_frames": 180,
+        "items_in_environment": 171
+      }
+    },
+    {
+      "name": "Performance Benchmark",
+      "duration_seconds": 10,
+      "status": "PASS",
+      "metrics": {
+        "total_items_processed": 190,
+        "successful_sorts": 0,
+        "failed_sorts": 0,
+        "accuracy_rate": "0.00%",
+        "simulation_time": "2.88s",
+        "fps": "15.2",
+        "total_frames": 288,
+        "items_in_environment": 190,
+        "avg_frame_time_ms": "34.90",
+        "max_frame_time_ms": "82.54",
+        "min_frame_time_ms": "0.00",
+        "total_frames_collected": 288
+      }
+    },
+    {
+      "name": "Event System Test",
+      "status": "PASS",
+      "metrics": {
+        "events_triggered": 520013,
+        "event_breakdown": {
+          "on_item_created": 146,
+          "on_collision": 519712,
+          "on_step_complete": 155
+        }
+      }
+    },
+    {
+      "name": "Environment Features Test",
+      "status": "PASS",
+      "metrics": {
+        "bin_count": 4,
+        "item_count": 170,
+        "robot_count": 0,
+        "environment_size": "2000x3000x1500"
+      }
+    }
+  ]
+}
